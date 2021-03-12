@@ -169,8 +169,8 @@ public class login extends javax.swing.JFrame {
     }//GEN-LAST:event_TXTusuarioActionPerformed
 
     private void BTNingresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTNingresarActionPerformed
-        String usuario = "admin";
-        String password = "123";
+        String usuario = "admin1";
+        String password = "1234";
         if(TXTusuario.getText().equals(usuario)&&TXTpassword.getText().equals(password)){
             
             menu ing = new menu ();
